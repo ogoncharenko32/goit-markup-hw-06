@@ -191,7 +191,7 @@ header .container {
     padding: 188px 0;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-small.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-320-1x-min.jpg);
 #    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -219,6 +219,7 @@ header .container {
     border: none;
     background-color: transparent;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .button {
@@ -1129,7 +1130,7 @@ input.visually-hidden:checked ~ .checkbox-icon {
         }
 
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-medium.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-768-1x-min.jpg);
     }
 
     .third-section-list {
@@ -1222,10 +1223,30 @@ input.visually-hidden:checked ~ .checkbox-icon {
     }
 
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1440-1x-min.jpg);
     }
 
     .footer-container {
         margin: 0 auto;
     }
 }
+
+@media (min-resolution: 192dpi) {
+    .first-section {
+        background-image: url('/images/people-office-320-2x-min.jpg');
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .first-section {
+            background-image: url('/images/people-office-768-2x-min.jpg');
+        }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .first-section {
+        background-image: url('/images/people-office-1440-2x-min.jpg');
+    }
+}
+
+
