@@ -1177,6 +1177,22 @@ input.visually-hidden:checked ~ .checkbox-icon {
 
 
 @media screen and (min-width: 1158px) {
+
+    .address-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .adress-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .second-section-list {
+        flex-wrap: nowrap;
+    }
+
     .second-section-list-item {
         flex-basis: calc((100% - 72px) / 4);
     }
@@ -1200,7 +1216,16 @@ input.visually-hidden:checked ~ .checkbox-icon {
         letter-spacing: 0.02em;
         color: #434455;
     }
+
+    .third-section-list {
+        flex-wrap: nowrap;
+    }
+
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    }
+
+    .footer-container {
+        margin: 0 auto;
     }
 }
