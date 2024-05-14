@@ -1233,19 +1233,19 @@ input.visually-hidden:checked ~ .checkbox-icon {
 
 @media (min-resolution: 192dpi) {
     .first-section {
-        background-image: url('/images/people-office-320-2x-min.jpg');
+        background-image: url('../images/people-office-320-2x-min.jpg');
     }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .first-section {
-            background-image: url('/images/people-office-768-2x-min.jpg');
+            background-image: url('../images/people-office-768-2x-min.jpg');
         }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .first-section {
-        background-image: url('/images/people-office-1440-2x-min.jpg');
+        background-image: url('../images/people-office-1440-2x-min.jpg');
     }
 }
 
