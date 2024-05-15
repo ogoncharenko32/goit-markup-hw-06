@@ -35,14 +35,19 @@ img {
 }
 
 .container {
-    max-width: 1158px;
-    padding-left:15px;
-    padding-right:15px;
-    margin: 0 auto;
+#    max-width: 1158px;
+#    padding-left:15px;
+#    padding-right:15px;
+#    margin: 0 auto;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 header {
@@ -188,7 +193,7 @@ header .container {
 
 .first-section {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 72px 52px;
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-320-1x-min.jpg);
@@ -433,7 +438,7 @@ header .container {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .footer-text {
@@ -1075,6 +1080,11 @@ input.visually-hidden:checked ~ .checkbox-icon {
 
 
 @media screen and (min-width: 768px) {
+    
+    .container {
+        max-width: 768px;
+    }
+
     header .container {
         padding: 0 16px;
         align-items: center;
@@ -1130,6 +1140,7 @@ input.visually-hidden:checked ~ .checkbox-icon {
         }
 
     .first-section {
+        padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-768-1x-min.jpg);
     }
 
@@ -1148,6 +1159,7 @@ input.visually-hidden:checked ~ .checkbox-icon {
         justify-content: space-between;
         gap: 72px 0;
     }
+
 
     .footer-container {
         flex-direction: row;
@@ -1178,6 +1190,20 @@ input.visually-hidden:checked ~ .checkbox-icon {
 
 
 @media screen and (min-width: 1158px) {
+
+    .section {
+        padding: 120px 0;
+    }
+
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
 
     .address-list {
         flex-direction: row;
@@ -1223,6 +1249,7 @@ input.visually-hidden:checked ~ .checkbox-icon {
     }
 
     .first-section {
+        padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1440-1x-min.jpg);
     }
 
@@ -1233,19 +1260,19 @@ input.visually-hidden:checked ~ .checkbox-icon {
 
 @media (min-resolution: 192dpi) {
     .first-section {
-        background-image: url('../images/people-office-320-2x-min.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-320-2x-min.jpg');
     }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .first-section {
-            background-image: url('../images/people-office-768-2x-min.jpg');
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-768-2x-min.jpg');
         }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .first-section {
-        background-image: url('../images/people-office-1440-2x-min.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-1440-2x-min.jpg');
     }
 }
 
